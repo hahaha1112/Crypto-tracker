@@ -1,0 +1,18 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8080
+  },
+  "database": {
+    "path": "data/crypto.db"
+  },
+  "exchanges": [
+    {
+      "name": "模拟交易所",
+      "url": "https://api.mock-exchange.com",
+      "apiKey": "",
+      "coins": ["BTC", "ETH", "BNB", "XRP", "ADA", "SOL", "DOGE", "DOT"]
+    }
+  ],
+  "updateInterval": 60
+}
